@@ -31,7 +31,7 @@ function App() {
      {/* 1.Header */}
       <h1 className="font-bold text-4xl p-5">Todo List App</h1>
       {/* 2.input (input and button) */}
-      <input className="p-[4px] mr-[8px] outline-none border-2 rounded-md border-gray-400 " type="text"  placeholder="Add and item..." value={newItem}
+      <input className="p-[4px] mr-[8px] outline-orange-400 border-2 rounded-md border-gray-400 " type="text"  placeholder="Add and item..." value={newItem}
       onChange={e => setNewItem(e.target.value)}/>
       <button className="bg-gray-100 px-2 border-2 border-gray-400 rounded-md text-sm font-semibold py-1" onClick={() => addItem()}>Add</button>
       {/* 3.list of items (unordred list with list items) */}
